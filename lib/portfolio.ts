@@ -56,7 +56,7 @@ export const projects: Project[] = [
       "Gamification through points, levels, and quizzes",
       "Parent dashboard for monitoring progress and rewards",
     ],
-    stack: ["FLUTTER", "PYTHON", "HPE", "COMPUTER VISION", "MOBILE UX"],
+    stack: ["REACT NATIVE", "PYTHON", "HPE", "COMPUTER VISION", "MOBILE UX"],
   },
   {
     slug: "satellite-crowd-analysis",

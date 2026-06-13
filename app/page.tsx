@@ -128,7 +128,7 @@ export default function Home() {
         <section id="about" className="content-section">
           <SectionHeading
             command="cat /profile/about.txt"
-            title="ABOUT_PROCESS"
+            title="ABOUT"
             description="A practical builder working across artificial intelligence, data, and product engineering."
           />
           <div className="two-column-grid">
@@ -163,15 +163,15 @@ export default function Home() {
               <div className="stats-grid">
                 <div>
                   <strong>05</strong>
-                  <span>PROJECTS_LOADED</span>
+                  <span>TOTAL_PROJECTS</span>
                 </div>
                 <div>
                   <strong>04</strong>
-                  <span>MONTHS_KACST</span>
+                  <span>MONTHS_INTERNSHIP_AT_KACST</span>
                 </div>
                 <div>
                   <strong>200</strong>
-                  <span>TUWAIQ_HOURS</span>
+                  <span>TUWAIQ_ACADEMY_HOURS</span>
                 </div>
                 <div>
                   <strong>150+</strong>
@@ -185,7 +185,7 @@ export default function Home() {
         <section id="experience" className="content-section">
           <SectionHeading
             command="sudo systemctl status experience.service"
-            title="EXPERIENCE_LOG"
+            title="EXPERIENCE"
             description="Applied AI experience in a research and satellite-imagery environment."
           />
           {experience.map((item) => (
@@ -215,7 +215,7 @@ export default function Home() {
         <section id="projects" className="content-section">
           <SectionHeading
             command="ls -la /projects --sort=impact"
-            title="PROJECT_ARCHIVE"
+            title="MY_PROJECTS"
             description="Selected systems spanning AI platforms, computer vision, satellite analysis, detection, and mobile applications."
           />
           <div className="projects-grid">
@@ -261,7 +261,7 @@ export default function Home() {
         <section id="skills" className="content-section">
           <SectionHeading
             command="./skills.sh --diagnostic"
-            title="CAPABILITY_MATRIX"
+            title="MY_SKILLS"
             description="Capability signals are grouped by working domain rather than arbitrary percentage claims."
           />
           <TerminalFrame title="DIAGNOSTIC_OUTPUT" status="PASS">
@@ -279,7 +279,7 @@ export default function Home() {
         <section id="education" className="content-section">
           <SectionHeading
             command="cat /etc/education && cat /etc/certificates"
-            title="TRAINING_RECORDS"
+            title="EDUCATION_AND_CERTIFICATIONS"
             description="Formal education, intensive technical training, and selected certifications."
           />
           <div className="two-column-grid education-grid">
@@ -318,10 +318,10 @@ export default function Home() {
         <section id="contact" className="content-section contact-section">
           <SectionHeading
             command="ssh visitor@meran --connect"
-            title="ESTABLISH_CONNECTION"
+            title="CONTACT_ME"
             description="Open to opportunities involving AI engineering, data science, computer vision, NLP, and intelligent software products."
           />
-          <TerminalFrame title="CONTACT_PROTOCOL" status="LISTENING">
+          <TerminalFrame title="CONTACT_ME" status="LISTENING">
             <div className="contact-grid">
               <div>
                 <p className="contact-prompt">
