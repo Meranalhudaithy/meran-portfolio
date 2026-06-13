@@ -1,11 +1,15 @@
 import type { NextConfig } from "next";
 
+const isGitHubPages = process.env.GITHUB_ACTIONS === "true";
+
 const nextConfig: NextConfig = {
-  output: 'export', // Tells Next.js to generate static HTML/CSS/JS (creates an 'out' folder)
+  output: "export",
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  reactStrictMode: true,
+  basePath: isGitHubPages ? "/meran-portfolio" : "",
+  assetPrefix: isGitHubPages ? "/meran-portfolio/" : "",
 };
 
 export default nextConfig;
